@@ -1,58 +1,81 @@
-💰 Finance Dashboard UI
-📌 Overview
-This project is a simple Finance Dashboard built using React.
-It allows users to view financial data, explore transactions, and understand spending patterns.
+# 💰 Finance Dashboard UI
 
+## 📌 Overview
+This project is a simple and interactive **Finance Dashboard** built using React.  
+It helps users track financial data, explore transactions, and understand spending patterns through visualizations.
 
-🚀 Features
-1. Dashboard
-Displays Total Income, Expenses, and Balance
-Line Chart showing balance trend over time
-Pie Chart showing spending categories
+---
 
-2. Transactions
-List of all transactions with:
-Date
-Amount
-Category
-Type (Income/Expense)
+## 🚀 Features
 
-Features:
-Search by category
-Filter (Income / Expense)
+### 📊 Dashboard
+- Displays:
+  - Total Income
+  - Total Expenses
+  - Current Balance  
+- 📈 Line chart showing balance trend over time  
+- 🥧 Pie chart showing spending distribution by category  
 
-3. Role-Based UI (Simulated)
-Viewer: Can only view data
-Admin: Can see additional UI elements (Edit/Delete buttons)
-Role can be switched using a dropdown
+---
 
-4. Insights
-Highest spending category (dynamic)
-Total income vs expense
-Simple financial observation
+### 💳 Transactions
+- List of all transactions with:
+  - Date  
+  - Amount  
+  - Category  
+  - Type (Income / Expense)  
 
-🧠 Approach
-Used React functional components for building UI
-Used useState for managing UI state (search, filter, role)
-Used simple loops and basic JavaScript for calculations
-Used Chart.js for data visualization
-Used mock data instead of backend API
+**Features:**
+- 🔍 Search by category  
+- 🎯 Filter by type (Income / Expense)  
 
+---
 
-🛠️ Tech Stack
-React (Vite)
-JavaScript
-Chart.js (for graphs)
-Basic CSS / Inline styles
+### 👥 Role-Based UI (Simulated)
+- **Viewer**
+  - Can only view data  
+- **Admin**
+  - Can see additional controls (Edit/Delete buttons)  
 
-⚙️ Setup Instructions
-Clone the repository: git clone <your-repo-link>
-Navigate to project folder: cd finance-dashboard
+➡️ Role can be switched using a dropdown  
 
-Install dependencies: npm install
-Run the project: npm run dev
-Open in browser: http://localhost:5173
+---
 
-Built simple data visualizations
-👤 Author
-Your Name
+### 📈 Insights
+- Highest spending category (dynamic)  
+- Total income vs total expenses  
+- Basic financial observations  
+
+---
+
+## 🧠 Approach
+- Built using **React functional components**  
+- Managed state using `useState`  
+- Used basic JavaScript logic (loops, conditionals) for calculations  
+- Integrated **Chart.js** for data visualization  
+- Used **mock data** (no backend integration)  
+
+---
+
+## 🛠️ Tech Stack
+- ⚛️ React (Vite)  
+- 🟨 JavaScript  
+- 📊 Chart.js  
+- 🎨 CSS / Inline Styling  
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+# Clone the repository
+git clone https://github.com/Astile04/finance-dashboard.git
+
+# Navigate into the project
+cd finance-dashboard
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
