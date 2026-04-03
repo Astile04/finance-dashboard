@@ -1,16 +1,58 @@
-# React + Vite
+💰 Finance Dashboard UI
+📌 Overview
+This project is a simple Finance Dashboard built using React.
+It allows users to view financial data, explore transactions, and understand spending patterns.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+🚀 Features
+1. Dashboard
+Displays Total Income, Expenses, and Balance
+Line Chart showing balance trend over time
+Pie Chart showing spending categories
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+2. Transactions
+List of all transactions with:
+Date
+Amount
+Category
+Type (Income/Expense)
 
-## React Compiler
+Features:
+Search by category
+Filter (Income / Expense)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Role-Based UI (Simulated)
+Viewer: Can only view data
+Admin: Can see additional UI elements (Edit/Delete buttons)
+Role can be switched using a dropdown
 
-## Expanding the ESLint configuration
+4. Insights
+Highest spending category (dynamic)
+Total income vs expense
+Simple financial observation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧠 Approach
+Used React functional components for building UI
+Used useState for managing UI state (search, filter, role)
+Used simple loops and basic JavaScript for calculations
+Used Chart.js for data visualization
+Used mock data instead of backend API
+
+
+🛠️ Tech Stack
+React (Vite)
+JavaScript
+Chart.js (for graphs)
+Basic CSS / Inline styles
+
+⚙️ Setup Instructions
+Clone the repository: git clone <your-repo-link>
+Navigate to project folder: cd finance-dashboard
+
+Install dependencies: npm install
+Run the project: npm run dev
+Open in browser: http://localhost:5173
+
+Built simple data visualizations
+👤 Author
+Your Name
